@@ -1,0 +1,15 @@
+{
+  "domain": "imou",
+  "name": "imou",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/imou",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@CYY666666"
+  ],
+  "iot_class": "cloud_polling"
+}

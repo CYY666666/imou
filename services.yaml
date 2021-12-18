@@ -1,0 +1,32 @@
+
+enable_close_camera:
+  name: Enable Close Camera
+  description: Enable Close Camera
+  target:
+    entity:
+      integration: imou
+      domain: camera
+  fields:
+    enable:
+      name: Enabled
+      description: "If the close camera is enabled or not"
+      example: true
+      required: true
+      selector:
+        boolean:
+
+enable_alarm_status:
+  name: Enable Alarm Status
+  description: Enable Alarm Status
+  target:
+    entity:
+      integration: imou
+      domain: camera
+  fields:
+    enable:
+      name: Enabled
+      description: "If the alarm status is enabled or not"
+      example: true
+      required: true
+      selector:
+        boolean:
